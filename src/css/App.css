@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  transition: all 0.25s ease;
+}
+
+body {
+  letter-spacing: 1px;
+  color: #0d0d0d;
+}
+
+textarea,
+input,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small,
+p {
+  font-family: "Poppins";
+}
+
+.container {
+  background-color: #f9ffff;
+}
+.container .app {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+  min-height: 100vh;
+}
+
+.btn {
+  background-color: #8DD0CA;
+  border: 2px solid #DEF1EF;
+  border-radius: 15px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  color: #f9ffff;
+  font-size: 0.95rem;
+}
+.btn:hover {
+  background-color: #f9ffff;
+  border: 2px solid #8DD0CA;
+  color: #8DD0CA;
+  font-weight: normal;
+}
+
+.dark-mode {
+  color: #DEF1EF;
+}
+.dark-mode.container {
+  background-color: #08122F;
+}
+.dark-mode .header h1 {
+  color: #DEF1EF;
+}
+.dark-mode .note {
+  background-color: #0C1B46;
+  border: 2px solid #273865;
+}
+.dark-mode .note.new {
+  background-color: #08122F;
+}
+.dark-mode .note.new textarea {
+  background-color: #08122F;
+  color: #DEF1EF;
+}
+.dark-mode .note.new textarea::placeholder {
+  color: #273865;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+.dark-mode .search {
+  background-color: transparent;
+  border: 2px solid #273865;
+}
+.dark-mode .search input {
+  color: #DEF1EF;
+}
+.dark-mode .search input::placeholder {
+  color: #273865;
+  font-weight: 400;
+}
+.dark-mode .btn {
+  background-color: transparent;
+  color: #DEF1EF;
+  border: 2px solid #273865;
+}
+.dark-mode .btn:hover {
+  background-color: #273865;
+  border: 2px solid transparent;
+}/*# sourceMappingURL=App.css.map */

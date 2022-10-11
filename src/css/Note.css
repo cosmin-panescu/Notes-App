@@ -1,0 +1,49 @@
+.note {
+  background-color: #DEF1EF;
+  border-radius: 10px;
+  padding: 0.8rem;
+  display: flex;
+  height: 170px;
+  flex-direction: column;
+  justify-content: space-between;
+  white-space: pre-wrap;
+  border: 2px solid #8DD0CA;
+}
+.note span {
+  overflow-y: scroll;
+  word-wrap: break-word;
+  font-size: 0.85rem;
+}
+.note span::-webkit-scrollbar {
+  display: none;
+}
+.note.new {
+  background-color: #8DD0CA;
+}
+.note.new textarea {
+  background-color: #8DD0CA;
+  border: none;
+  resize: none;
+}
+.note.new textarea::placeholder {
+  color: #0d0d0d;
+  opacity: 0.65;
+}
+.note.new textarea::-webkit-scrollbar {
+  display: none;
+}
+.note.new textarea:focus {
+  outline: none;
+}
+.note-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+.note-footer small {
+  opacity: 0.5;
+}
+.note-footer .delete-note {
+  cursor: pointer;
+}/*# sourceMappingURL=Note.css.map */

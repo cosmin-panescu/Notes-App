@@ -1,0 +1,9 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+.header h1 {
+  color: #0d0d0d;
+}/*# sourceMappingURL=Header.css.map */

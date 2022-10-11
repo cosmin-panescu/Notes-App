@@ -1,0 +1,59 @@
+.note {
+    background-color: #DEF1EF;
+    border-radius: 10px;
+    padding: .8rem;
+    display: flex;
+    height: 170px;
+    flex-direction: column;
+    justify-content: space-between;
+    white-space: pre-wrap;
+    border: 2px solid #8DD0CA;
+
+    span {
+        overflow-y: scroll;
+        word-wrap: break-word;
+        font-size: .85rem;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+    &.new {
+        background-color: #8DD0CA;
+
+        textarea {
+            background-color: #8DD0CA;
+            border: none;
+            resize: none;
+
+            &::placeholder {
+                color: #0d0d0d;
+                opacity: .65;
+            }
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    &-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 5px;
+
+        small {
+            opacity: .5;
+        }
+
+        .delete-note {
+            cursor: pointer;
+        }
+    }
+}
