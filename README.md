@@ -1,3 +1,5 @@
+![Untitled](https://user-images.githubusercontent.com/107345473/195370635-78ce8472-1fa0-4263-adff-2c3197da598b.png)
+
 Notes application where you can create cards with different notes.
 
 Languages, Frameworks used:
