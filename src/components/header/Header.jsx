@@ -9,7 +9,7 @@ const Header = ({ handleDarkMode }) => {
                 className='btn'
                 onClick={() => handleDarkMode((previousDarkMode) => !previousDarkMode)}
             >
-                Toggle
+                Switch Theme
             </button>
         </div>
     )
