@@ -11,6 +11,12 @@ body {
     color: #0d0d0d;
 }
 
+[contenteditable="true"]:active,
+[contenteditable="true"]:focus {
+    border: none;
+    outline: none;
+}
+
 textarea,
 input,
 h1,
