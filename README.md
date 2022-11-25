@@ -10,6 +10,7 @@ Languages, Frameworks used:
 
 Technologies and Tools used:
 - JavaScript Swal
+- Local Storage
 - Webpack
 - NPM
 - VSC
